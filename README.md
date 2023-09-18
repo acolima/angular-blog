@@ -1,27 +1,65 @@
-# AngularBlog
+# Angular Blog - Movie Review
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+A personal blog for movies reviews.
 
-## Development server
+Reviews from <a href='https://www.imdb.com/' target='_blank'>IMDb</a> and layout based on this <a href='https://dribbble.com/shots/15231709-Sendlane-Resources' target='_blank'>Dribbble</a> design.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Implemented features
 
-## Code scaffolding
+- Main page with the recently added reviews
+- A page with the review and movie details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies
 
-## Build
+<p>
+  <img src='https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white' alt="Angular" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  <img src='https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white' alt='TypeScript'/>
+</p>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## How to run
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone this repository
 
-## Further help
+```bash
+git clone git@github.com:acolima/angular-blog.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Go to the project directory
+
+```bash
+ cd angular-blog
+```
+
+3. Install dependencies
+
+```bash
+npm i
+```
+
+4. Run project with
+
+```bash
+npm start
+```
+
+6. Finally access http://localhost:4200 on your browser (port number may vary in some cases)
+
+
+## Author
+
+<img src='https://avatars.githubusercontent.com/acolima' width='150px'/>
+
+<p>
+  <a href='https://github.com/acolima'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' alt='Github' />
+  </a>
+  <a href='https://www.linkedin.com/in/ana-caroline-oliveira-lima-51821122b/'>
+    <img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='LinkedIn' />
+  </a>
+  <a href='mailto:acolima@gmail.com'>
+    <img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white' alt='Gmail' />
+  </a>
+</p>
