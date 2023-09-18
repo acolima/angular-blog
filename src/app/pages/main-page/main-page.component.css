@@ -1,0 +1,10 @@
+.main-page {
+  display: flex;
+  align-items: center;
+
+  padding: 0 3rem;
+}
+
+.other-cards {
+  width: 50%;
+}

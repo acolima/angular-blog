@@ -1,0 +1,7 @@
+<div class="main-page">
+  <app-main-card [card]="mainCard"></app-main-card>
+
+  <div class="other-cards">
+    <app-card *ngFor="let card of smallCards" [card]="card"></app-card>
+  </div>
+</div>
