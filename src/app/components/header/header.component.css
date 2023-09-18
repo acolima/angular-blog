@@ -1,0 +1,21 @@
+.header {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+
+  border-bottom: 0.5px solid lightgray;
+  padding: 1rem 1.5rem;
+}
+
+.header div {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header h3 {
+  cursor: pointer;
+}
