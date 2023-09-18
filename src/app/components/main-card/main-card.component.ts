@@ -7,5 +7,5 @@ import { CardData } from "src/app/utils/models";
   styleUrls: ["./main-card.component.css"],
 })
 export class MainCardComponent {
-  @Input() card!: CardData;
+  @Input() card: CardData | undefined;
 }

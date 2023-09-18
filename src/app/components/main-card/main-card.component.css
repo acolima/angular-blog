@@ -11,14 +11,18 @@
   width: 500px;
 }
 
-.main-card img {
+.cover-image {
   width: 500px;
   height: 300px;
 
   border-radius: 1rem;
 }
 
-.main-card h3 {
+.category {
   color: #ff3b77;
   margin-bottom: 0.5rem;
+}
+
+.title {
+  cursor: pointer;
 }

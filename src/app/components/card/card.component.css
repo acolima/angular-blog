@@ -1,4 +1,4 @@
-.small-card {
+.card {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -6,12 +6,16 @@
   padding: 1rem;
 }
 
-.small-card img {
+.cover-image {
   width: 200px;
   border-radius: 1rem;
 }
 
-.small-card h4 {
+.category {
   color: #ff3b77;
   margin-bottom: 0.5rem;
+}
+
+.title {
+  cursor: pointer;
 }

@@ -1,7 +1,11 @@
 <div class="main-card">
-  <img src="{{ card.coverImage }}" alt="{{ card.title }}" />
+  <img
+    class="cover-image"
+    src="{{ card?.coverImage }}"
+    alt="{{ card?.title }}"
+  />
   <div>
-    <h3>{{ card.category }}</h3>
-    <h1>{{ card.title }}</h1>
+    <h3 class="category">{{ card?.category }}</h3>
+    <h1 class="title" routerLink="/post/{{ card?.id }}">{{ card?.title }}</h1>
   </div>
 </div>
