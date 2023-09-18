@@ -1,11 +1,13 @@
 <div class="main-card">
   <img
     class="cover-image"
-    src="{{ card?.coverImage }}"
+    src="{{ card?.backdropPath }}"
     alt="{{ card?.title }}"
   />
   <div>
-    <h3 class="category">{{ card?.category }}</h3>
-    <h1 class="title" routerLink="/post/{{ card?.id }}">{{ card?.title }}</h1>
+    <h3 class="category">{{ card?.title }}</h3>
+    <h1 class="title" routerLink="/post/{{ card?.id }}">
+      {{ card?.reviewTitle }}
+    </h1>
   </div>
 </div>

@@ -15,13 +15,12 @@
   width: 40%;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .post-image img {
-  width: 400px;
-
   border-radius: 1rem;
 }
 
